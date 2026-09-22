@@ -228,7 +228,7 @@ with col1:
     A = st.number_input(
         "Current Value",
         min_value=0,
-        value=710,
+        value=0,
         step=10
     )
 
