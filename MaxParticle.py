@@ -464,7 +464,7 @@ if st.button(
 
             st.write(
                 f"➕ **{activity_name}** "
-                f"(+{amount}) → **{value}**  \n"
+                f"(+{amount}) → **{value}** "
                 f"Daily additions: {daily_added}"
             )
 
