@@ -328,7 +328,7 @@ T = st.number_input(
     "Maximum Number of Days (T)",
     min_value=1,
     max_value=100,
-    value=1,
+    value=3,
     step=1
 )
 
