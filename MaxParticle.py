@@ -262,7 +262,7 @@ col1, col2 = st.columns(2)
 with col1:
 
     M = st.number_input(
-        "Power Spot (M)",
+        "Power Spot",
         min_value=1,
         value=120,
         step=10
@@ -271,7 +271,7 @@ with col1:
 with col2:
 
     N = st.number_input(
-        "Exploring (N)",
+        "Exploring",
         min_value=1,
         value=300,
         step=10
@@ -293,7 +293,7 @@ col1, col2, col3 = st.columns(3)
 with col1:
 
     X = st.number_input(
-        "Tier 1 Raid (X)",
+        "Tier 1 Raid Cost",
         min_value=1,
         value=250,
         step=10
@@ -302,7 +302,7 @@ with col1:
 with col2:
 
     Y = st.number_input(
-        "Tier 3 Raid (Y)",
+        "Tier 3 Raid Cost",
         min_value=1,
         value=400,
         step=10
@@ -311,7 +311,7 @@ with col2:
 with col3:
 
     Z = st.number_input(
-        "Tier 4/5 Raid (Z)",
+        "Tier 4/5 Raid Cost",
         min_value=1,
         value=800,
         step=10
