@@ -489,8 +489,8 @@ if st.button(
 
             st.write(
                 f"➖ **{activity_name}** "
-                f"(-{amount}) → **{value}**  \n"
-                f"Daily additions remain: {daily_added}"
+                f"(-{amount}) → **{value}** "
+                f"[Daily additions remain: {daily_added}]"
             )
 
 
